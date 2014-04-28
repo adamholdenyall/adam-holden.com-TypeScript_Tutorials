@@ -10,7 +10,7 @@ class AppMain {
 			update: update,
 			render: render
 		});
-		//var star: Items.Star = null;
+		var star: Items.Star = null;
 
 		function preload() {
 			game.load.image('sky', '../assets/sky.png');

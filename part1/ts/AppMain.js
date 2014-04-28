@@ -9,8 +9,8 @@ define(["require", "exports", "ts/Items"], function(require, exports, Items) {
                 update: update,
                 render: render
             });
+            var star = null;
 
-            //var star: Items.Star = null;
             function preload() {
                 game.load.image('sky', '../assets/sky.png');
                 Items.Star.preload(this.game, '../assets/star.png');
