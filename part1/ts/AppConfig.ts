@@ -2,13 +2,13 @@
 
 require.config({
 	paths: {
-		"phaser": "../lib/phaser"
+		"AppMain": "ts/AppMain"
 	}
 });
 
 require(
-	["ts/AppMain","phaser"],
-	(AppMain,Phaser) => {
+	["AppMain"],
+	(AppMain) => {
 		var appMain = new AppMain();
 		appMain.run();
 	}

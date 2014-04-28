@@ -1,11 +1,11 @@
 /// <reference path="../../def/require.d.ts" />
 require.config({
     paths: {
-        "phaser": "../lib/phaser"
+        "AppMain": "ts/AppMain"
     }
 });
 
-require(["ts/AppMain", "phaser"], function (AppMain, Phaser) {
+require(["AppMain"], function (AppMain) {
     var appMain = new AppMain();
     appMain.run();
 });

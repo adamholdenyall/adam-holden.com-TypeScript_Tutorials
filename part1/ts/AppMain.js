@@ -1,6 +1,4 @@
-/// <reference path="../../def/phaser.d.ts"/>
-/// <reference path="../../def/require.d.ts"/>
-define(["require", "exports"], function(require, exports) {
+define(["require", "exports", "ts/Items"], function(require, exports, Items) {
     var AppMain = (function () {
         function AppMain() {
         }
@@ -11,24 +9,21 @@ define(["require", "exports"], function(require, exports) {
                 update: update,
                 render: render
             });
-            var star = null;
 
+            //var star: Items.Star = null;
             function preload() {
                 game.load.image('sky', '../assets/sky.png');
-                game.load.image('star', '../assets/star.png');
+                Items.Star.preload(this.game, '../assets/star.png');
             }
 
             function create() {
                 game.physics.startSystem(Phaser.Physics.ARCADE);
                 game.camera.y = 600;
                 game.add.sprite(0, 0, 'sky');
-
-                star = game.add.sprite(400, 300, 'star');
+                star = new Items.Star(game, 400, 300);
             }
 
             function update() {
-                star.anchor.set(.5, .5);
-                star.angle += 180 * game.time.elapsed / 1000;
             }
 
             function render() {
