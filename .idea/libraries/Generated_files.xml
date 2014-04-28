@@ -3,11 +3,13 @@
     <properties>
       <sourceFilesUrls>
         <item url="file://$PROJECT_DIR$/part1/ts/AppMain.js" />
+        <item url="file://$PROJECT_DIR$/part1/ts/Items.js" />
         <item url="file://$PROJECT_DIR$/part1/ts/AppConfig.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/part1/ts/AppMain.js" />
+      <root url="file://$PROJECT_DIR$/part1/ts/Items.js" />
       <root url="file://$PROJECT_DIR$/part1/ts/AppConfig.js" />
     </CLASSES>
     <SOURCES />
