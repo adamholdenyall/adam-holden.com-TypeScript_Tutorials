@@ -8,8 +8,8 @@ require.config({
 });
 
 require(
-	["AppMain"],
-	(AppMain) => {
+	["AppMain","lib/phaser.min"],
+	(AppMain,Phaser) => {
 		var appMain = new AppMain();
 		appMain.run();
 	}

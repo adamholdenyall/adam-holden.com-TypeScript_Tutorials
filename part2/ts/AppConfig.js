@@ -6,7 +6,7 @@ require.config({
     }
 });
 
-require(["AppMain"], function (AppMain) {
+require(["AppMain", "lib/phaser.min"], function (AppMain, Phaser) {
     var appMain = new AppMain();
     appMain.run();
 });
