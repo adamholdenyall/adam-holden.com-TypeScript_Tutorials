@@ -2,15 +2,31 @@
   <library name="Generated files" type="javaScript">
     <properties>
       <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/part2/ts/AppConfig.js" />
+        <item url="file://$PROJECT_DIR$/part2/ts/AppMain.js" />
+        <item url="file://$PROJECT_DIR$/lib/TypeState.js" />
         <item url="file://$PROJECT_DIR$/part1/ts/AppMain.js" />
+        <item url="file://$PROJECT_DIR$/part2/ts/Items.js" />
         <item url="file://$PROJECT_DIR$/part1/ts/Items.js" />
         <item url="file://$PROJECT_DIR$/part1/ts/AppConfig.js" />
+        <item url="file://$PROJECT_DIR$/part2/lib/TypeState.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
+      <root url="file://$PROJECT_DIR$/part1/ts/GameNode.js" />
+      <root url="file://$PROJECT_DIR$/part1/ts/Behavior.js" />
+      <root url="file://$PROJECT_DIR$/part1/ts/lib/TypeState.js" />
+      <root url="file://$PROJECT_DIR$/part1/ts/GameNode.js" />
+      <root url="file://$PROJECT_DIR$/part1/ts/Behavior.js" />
+      <root url="file://$PROJECT_DIR$/part1/ts/lib/TypeState.js" />
+      <root url="file://$PROJECT_DIR$/part2/ts/AppConfig.js" />
+      <root url="file://$PROJECT_DIR$/part2/ts/AppMain.js" />
+      <root url="file://$PROJECT_DIR$/lib/TypeState.js" />
       <root url="file://$PROJECT_DIR$/part1/ts/AppMain.js" />
       <root url="file://$PROJECT_DIR$/part1/ts/Items.js" />
+      <root url="file://$PROJECT_DIR$/part2/ts/Items.js" />
       <root url="file://$PROJECT_DIR$/part1/ts/AppConfig.js" />
+      <root url="file://$PROJECT_DIR$/lib/TypeState.js" />
     </CLASSES>
     <SOURCES />
   </library>

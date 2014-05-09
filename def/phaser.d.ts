@@ -1078,6 +1078,7 @@ declare module Phaser {
 
         constructor(sprite: Phaser.Sprite);
 
+        currentAnim: Phaser.Animation;
         currentFrame: Phaser.Frame;
         frame: number;
         frameData: Phaser.FrameData;
